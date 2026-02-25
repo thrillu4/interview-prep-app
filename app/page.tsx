@@ -1,6 +1,4 @@
-type Props = {}
-
-const page = (props: Props) => {
+const page = async () => {
 	return <div>page</div>
 }
 
