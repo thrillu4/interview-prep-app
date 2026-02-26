@@ -34,7 +34,5 @@ export const SignInFormSchema = z.object({
 	password: z
 		.string()
 		.min(6, { error: 'Be at least 6 characters long' })
-		.regex(/[a-zA-Z]/, { error: 'Contain at least one letter.' })
-		.regex(/[0-9]/, { error: 'Contain at least one number.' })
 		.trim(),
 })
