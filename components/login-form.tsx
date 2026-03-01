@@ -36,11 +36,10 @@ export function LoginForm({
 							className='flex flex-col items-center gap-2 font-medium'
 						>
 							<div className='flex size-8 items-center justify-center rounded-md'>
-								<GalleryVerticalEnd className='size-6' />
+								<GalleryVerticalEnd className='size-7' />
 							</div>
-							<span className='sr-only'>Acme Inc.</span>
 						</a>
-						<h1 className='text-xl font-bold'>Welcome to Acme Inc.</h1>
+						<h1 className='text-xl font-bold'>Sign in to your account</h1>
 						<FieldDescription>
 							Don&apos;t have an account?{' '}
 							<Link href={ROUTES.SIGN_UP}>Sign up</Link>
@@ -52,7 +51,7 @@ export function LoginForm({
 							id='email'
 							type='email'
 							name='email'
-							placeholder='m@example.com'
+							placeholder='anna@example.com'
 							defaultValue={state?.values?.email || ''}
 							required
 						/>
@@ -77,7 +76,7 @@ export function LoginForm({
 					{state?.message && <p className='text-red-500'>{state.message}</p>}
 					<Field>
 						<Button type='submit' disabled={pending}>
-							Login
+							{pending ? 'Signing In...' : 'Sign In'}
 						</Button>
 					</Field>
 					<FieldSeparator>Or</FieldSeparator>

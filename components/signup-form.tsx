@@ -35,9 +35,8 @@ export function SignupForm({
 							className='flex flex-col items-center gap-2 font-medium'
 						>
 							<div className='flex size-8 items-center justify-center rounded-md'>
-								<GalleryVerticalEnd className='size-6' />
+								<GalleryVerticalEnd className='size-7' />
 							</div>
-							<span className='sr-only'>Acme Inc.</span>
 						</a>
 						<h1 className='text-xl font-bold'>Create a new account</h1>
 						<FieldDescription>
@@ -89,7 +88,7 @@ export function SignupForm({
 					{state?.message && <p className='text-red-500'>{state?.message}</p>}
 					<Field>
 						<Button type='submit' disabled={pending}>
-							Create Account
+							{pending ? 'Creating Account...' : 'Create Account'}
 						</Button>
 					</Field>
 					<FieldSeparator>Or</FieldSeparator>
