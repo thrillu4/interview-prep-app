@@ -4,4 +4,6 @@ export const ROUTES = {
 	LOG_IN: '/login',
 	TERMS: '/legal/terms',
 	PRIVACY_POLICY: '/legal/privacy-policy',
+	PROFILE: '/profile',
+	SETTINGS: '/settings',
 }
