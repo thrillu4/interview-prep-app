@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-	title: 'Interview Ready',
+	title: 'IReady',
 	description: 'Website for interview preparation',
 }
 

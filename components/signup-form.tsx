@@ -10,7 +10,7 @@ import {
 } from '@/components/ui/field'
 import { Input } from '@/components/ui/input'
 import { cn } from '@/lib/utils'
-import { signIn } from '@/services/auth.actions'
+import { signUp } from '@/services/auth.actions'
 import {
 	loginWithGitHub,
 	loginWithGoogle,
@@ -20,12 +20,11 @@ import { GalleryVerticalEnd } from 'lucide-react'
 import Link from 'next/link'
 import { useActionState } from 'react'
 
-export function LoginForm({
+export function SignupForm({
 	className,
 	...props
 }: React.ComponentProps<'div'>) {
-	const [state, action, pending] = useActionState(signIn, undefined)
-
+	const [state, action, pending] = useActionState(signUp, undefined)
 	return (
 		<div className={cn('flex flex-col gap-6', className)} {...props}>
 			<form action={action}>
@@ -39,19 +38,32 @@ export function LoginForm({
 								<GalleryVerticalEnd className='size-7' />
 							</div>
 						</a>
-						<h1 className='text-xl font-bold'>Sign in to your account</h1>
+						<h1 className='text-xl font-bold'>Create a new account</h1>
 						<FieldDescription>
-							Don&apos;t have an account?{' '}
-							<Link href={ROUTES.SIGN_UP}>Sign up</Link>
+							Already have an account? <Link href={ROUTES.LOG_IN}>Sign in</Link>
 						</FieldDescription>
 					</div>
+					<Field>
+						<FieldLabel htmlFor='name'>Name</FieldLabel>
+						<Input
+							id='name'
+							name='name'
+							type='text'
+							placeholder='Alex Bolton'
+							defaultValue={state?.values?.name || ''}
+							required
+						/>
+						{state?.errors?.name && (
+							<p className='text-red-500'>{state.errors.name[0]}</p>
+						)}
+					</Field>
 					<Field>
 						<FieldLabel htmlFor='email'>Email</FieldLabel>
 						<Input
 							id='email'
 							type='email'
 							name='email'
-							placeholder='anna@example.com'
+							placeholder='alex548@example.com'
 							defaultValue={state?.values?.email || ''}
 							required
 						/>
@@ -64,8 +76,8 @@ export function LoginForm({
 						<Input
 							id='password'
 							type='password'
+							placeholder='*******'
 							name='password'
-							placeholder='*********'
 							defaultValue={state?.values?.password || ''}
 							required
 						/>
@@ -73,10 +85,10 @@ export function LoginForm({
 							<p className='text-red-500'>{state.errors.password[0]}</p>
 						)}
 					</Field>
-					{state?.message && <p className='text-red-500'>{state.message}</p>}
+					{state?.message && <p className='text-red-500'>{state?.message}</p>}
 					<Field>
 						<Button type='submit' disabled={pending}>
-							{pending ? 'Signing In...' : 'Sign In'}
+							{pending ? 'Creating Account...' : 'Create Account'}
 						</Button>
 					</Field>
 					<FieldSeparator>Or</FieldSeparator>
