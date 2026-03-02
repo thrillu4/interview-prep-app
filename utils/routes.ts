@@ -6,4 +6,8 @@ export const ROUTES = {
 	PRIVACY_POLICY: '/legal/privacy-policy',
 	PROFILE: '/profile',
 	SETTINGS: '/settings',
+	GET_STARTED: '/get-started',
+	QUESTIONS: '/questions',
+	CODING_PROBLEMS: '/coding-problems',
+	MOCK_INTERVIEW: '/mock-interview',
 }

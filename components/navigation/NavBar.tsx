@@ -11,20 +11,26 @@ import { SettingsIcon, User, UserIcon } from 'lucide-react'
 import { headers } from 'next/headers'
 import Image from 'next/image'
 import Link from 'next/link'
+import { ModeToggle } from '../theme/ThemeButtonToggle'
+import NavMenu from './NavMenu'
 import SignOutButton from './SignOutButton'
-import { ModeToggle } from './theme/ThemeButtonToggle'
 
 const NavBar = async () => {
 	const session = await auth.api.getSession({
 		headers: await headers(),
 	})
 	return (
-		<nav className='flex justify-between items-center font-extrabold tracking-wide text-lg px-6 py-3'>
-			<div className='flex items-center'>
-				<Link href={ROUTES.HOME} className='flex gap-3 items-center'>
+		<nav className='flex justify-between items-center  text-lg px-6 py-3'>
+			<div className='flex items-center '>
+				<Link
+					href={ROUTES.HOME}
+					className='flex gap-3 items-center font-extrabold tracking-wide'
+				>
 					<Image src='/main.png' width={28} height={28} alt='main logo' />
 					IReady
 				</Link>
+				<div>|</div>
+				<NavMenu />
 			</div>
 			<div className='font-medium flex items-center gap-4'>
 				<ModeToggle />

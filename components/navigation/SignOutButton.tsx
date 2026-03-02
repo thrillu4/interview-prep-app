@@ -3,7 +3,7 @@
 import { authClient } from '@/lib/auth-client'
 import { LogOutIcon } from 'lucide-react'
 import { useRouter } from 'next/navigation'
-import { DropdownMenuItem } from './ui/dropdown-menu'
+import { DropdownMenuItem } from '../ui/dropdown-menu'
 
 const SignOutButton = () => {
 	const router = useRouter()
