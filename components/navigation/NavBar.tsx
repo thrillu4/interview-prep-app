@@ -21,15 +21,15 @@ const NavBar = async () => {
 	})
 	return (
 		<nav className='flex justify-between items-center  text-lg px-6 py-3'>
-			<div className='flex items-center '>
+			<div className='flex items-center gap-5'>
 				<Link
 					href={ROUTES.HOME}
-					className='flex gap-3 items-center font-extrabold tracking-wide'
+					className='flex gap-3 items-center font-extrabold tracking-wide text-xl'
 				>
 					<Image src='/main.png' width={28} height={28} alt='main logo' />
 					IReady
 				</Link>
-				<div>|</div>
+				<div className='text-sm'>|</div>
 				<NavMenu />
 			</div>
 			<div className='font-medium flex items-center gap-4'>
