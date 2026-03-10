@@ -12,6 +12,7 @@ import { headers } from 'next/headers'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ModeToggle } from '../theme/ThemeButtonToggle'
+import HomeButton from './HomeButton'
 import NavMenu from './NavMenu'
 import SignOutButton from './SignOutButton'
 
@@ -22,13 +23,7 @@ const NavBar = async () => {
 	return (
 		<nav className='flex justify-between items-center  text-lg px-6 py-3'>
 			<div className='flex items-center gap-5'>
-				<Link
-					href={ROUTES.HOME}
-					className='flex gap-3 items-center font-extrabold tracking-wide text-xl'
-				>
-					<Image src='/main.png' width={28} height={28} alt='main logo' />
-					IReady
-				</Link>
+				<HomeButton />
 				<div className='text-sm'>|</div>
 				<NavMenu />
 			</div>
