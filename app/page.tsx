@@ -1,5 +1,11 @@
-const page = async () => {
-	return <div>page</div>
+import PromoSection from '@/components/home/PromoSection'
+
+const Home = async () => {
+	return (
+		<>
+			<PromoSection />
+		</>
+	)
 }
 
-export default page
+export default Home

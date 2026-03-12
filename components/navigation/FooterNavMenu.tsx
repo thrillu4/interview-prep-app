@@ -9,14 +9,14 @@ const FooterNavMenu = () => {
 			<div className='col-start-1 col-end-3'>
 				<HomeButton />
 				<form className='mt-15 w-[80%]'>
-					<label className='text-xl block mb-4 text-gray-200' htmlFor='email'>
+					<label className='text-xl block mb-4 text-gray-500' htmlFor='email'>
 						Contact us:
 					</label>
 					<textarea
 						name='email'
 						id='email'
 						placeholder="We'll be happy to help you with any question..."
-						className='border-2 bg-neutral-900 resize-none w-full min-h-28 p-2'
+						className='border-2 dark:bg-neutral-900 resize-none w-full min-h-28 p-2'
 						maxLength={400}
 					/>
 					<Button variant={'outline'} disabled type='submit'>
