@@ -18,7 +18,7 @@ const NavMenu = () => {
 					return (
 						<NavigationMenuList key={tab.title}>
 							<NavigationMenuItem>
-								<NavigationMenuTrigger className='text-lg font-bold'>
+								<NavigationMenuTrigger className='text-lg font-bold bg-transparent '>
 									{tab.title}
 								</NavigationMenuTrigger>
 								<NavigationMenuContent>

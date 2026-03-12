@@ -21,7 +21,7 @@ const NavBar = async () => {
 		headers: await headers(),
 	})
 	return (
-		<nav className='flex justify-between items-center  text-lg px-6 py-3'>
+		<nav className='flex justify-between items-center backdrop-blur-xs w-full fixed text-lg px-6 py-3'>
 			<div className='flex items-center gap-5'>
 				<HomeButton />
 				<div className='text-sm'>|</div>
