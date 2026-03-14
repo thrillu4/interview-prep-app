@@ -1,3 +1,4 @@
+import DescriptionSection from '@/components/home/DescriptionSection'
 import FeatureSection from '@/components/home/FeatureSection'
 import PromoSection from '@/components/home/PromoSection'
 import QuestionSection from '@/components/home/QuestionSection'
@@ -12,6 +13,7 @@ const Home = async () => {
 			<PromoSection />
 			<WorkSpace />
 			<FeatureSection />
+			<DescriptionSection />
 			<QuestionSection />
 			<div className='pt-20 flex items-center justify-between max-w-7xl mx-auto'>
 				<h4 className='text-5xl font-medium'>

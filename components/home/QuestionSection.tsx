@@ -10,7 +10,8 @@ const QuestionSection = () => {
 		<section className='max-w-7xl mx-auto px-6 mt-50 '>
 			<div>
 				<h2 className='text-5xl font-medium mb-24'>
-					Your commonly asked questions, answered
+					Your commonly asked questions,{' '}
+					<span className='text-main'>answered</span>
 				</h2>
 				<h3></h3>
 			</div>
