@@ -55,7 +55,7 @@ const FeatureSection = () => {
 						<path
 							className='fill-neutral-50 dark:fill-neutral-800'
 							d='M8 30C8 28.8954 8.89543 28 10 28H34C35.1046 28 36 28.8954 36 30V132C36 133.105 35.1046 134 34 134H10C8.89543 134 8 133.105 8 132V30Z'
-							fill-opacity='0.8'
+							fillOpacity='0.8'
 						></path>
 						<path
 							className='fill-neutral-400 dark:fill-neutral-700'
@@ -85,7 +85,7 @@ const FeatureSection = () => {
 						<path
 							className='fill-neutral-50 dark:fill-neutral-800'
 							d='M40 36C40 31.5817 43.5817 28 48 28H120C124.418 28 128 31.5817 128 36V126C128 130.418 124.418 134 120 134H48C43.5817 134 40 130.418 40 126V36Z'
-							fill-opacity='0.8'
+							fillOpacity='0.8'
 						></path>
 						<g opacity='0.4'>
 							<rect
@@ -172,7 +172,7 @@ const FeatureSection = () => {
 						<path
 							className='fill-neutral-50 dark:fill-neutral-800'
 							d='M40 36C40 31.5817 43.5817 28 48 28H120C124.418 28 128 31.5817 128 36V126C128 130.418 124.418 134 120 134H48C43.5817 134 40 130.418 40 126V36Z'
-							fill-opacity='0.8'
+							fillOpacity='0.8'
 						></path>
 						<g opacity='0.4'>
 							<rect
@@ -259,7 +259,7 @@ const FeatureSection = () => {
 						<path
 							className='fill-neutral-50 dark:fill-neutral-800'
 							d='M132 36C132 31.5817 135.582 28 140 28H287C291.418 28 295 31.5817 295 36V126C295 130.418 291.418 134 287 134H140C135.582 134 132 130.418 132 126V36Z'
-							fill-opacity='0.8'
+							fillOpacity='0.8'
 						></path>
 						<path
 							className='fill-white dark:fill-[#1E1E21] stroke-neutral-300 dark:stroke-neutral-700'
@@ -308,35 +308,35 @@ const FeatureSection = () => {
 						<path
 							className='fill-neutral-300 dark:fill-neutral-700'
 							d='M141 63C141 61.3431 142.343 60 144 60C145.657 60 147 61.3431 147 63C147 64.6569 145.657 66 144 66C142.343 66 141 64.6569 141 63Z'
-							fill-opacity='0.3'
+							fillOpacity='0.3'
 						></path>
 						<path
 							d='M141.15 63C141.15 61.426 142.426 60.15 144 60.15C145.574 60.15 146.85 61.426 146.85 63C146.85 64.574 145.574 65.85 144 65.85C142.426 65.85 141.15 64.574 141.15 63Z'
 							stroke='#3F3F46'
-							stroke-opacity='0.5'
-							stroke-width='0.3'
+							strokeOpacity='0.5'
+							strokeWidth='0.3'
 						></path>
 						<path
 							className='fill-neutral-300 dark:fill-neutral-700'
 							d='M141 71C141 69.3431 142.343 68 144 68C145.657 68 147 69.3431 147 71C147 72.6569 145.657 74 144 74C142.343 74 141 72.6569 141 71Z'
-							fill-opacity='0.3'
+							fillOpacity='0.3'
 						></path>
 						<path
 							d='M141.15 71C141.15 69.426 142.426 68.15 144 68.15C145.574 68.15 146.85 69.426 146.85 71C146.85 72.574 145.574 73.85 144 73.85C142.426 73.85 141.15 72.574 141.15 71Z'
 							stroke='#3F3F46'
-							stroke-opacity='0.5'
-							stroke-width='0.3'
+							strokeOpacity='0.5'
+							strokeWidth='0.3'
 						></path>
 						<path
 							className='fill-neutral-300 dark:fill-neutral-700'
 							d='M141 79C141 77.3431 142.343 76 144 76C145.657 76 147 77.3431 147 79C147 80.6569 145.657 82 144 82C142.343 82 141 80.6569 141 79Z'
-							fill-opacity='0.3'
+							fillOpacity='0.3'
 						></path>
 						<path
 							d='M141.15 79C141.15 77.426 142.426 76.15 144 76.15C145.574 76.15 146.85 77.426 146.85 79C146.85 80.574 145.574 81.85 144 81.85C142.426 81.85 141.15 80.574 141.15 79Z'
 							stroke='#3F3F46'
-							stroke-opacity='0.5'
-							stroke-width='0.3'
+							strokeOpacity='0.5'
+							strokeWidth='0.3'
 						></path>
 						<rect
 							className='fill-neutral-50 dark:fill-neutral-800 stroke-neutral-300 dark:stroke-neutral-700'
@@ -344,7 +344,7 @@ const FeatureSection = () => {
 							opacity='0.4'
 							rx='1.25'
 							stroke='#3F3F46'
-							stroke-width='0.5'
+							strokeWidth='0.5'
 							width='20.5'
 							x='141.25'
 							y='93.25'
@@ -354,7 +354,7 @@ const FeatureSection = () => {
 							height='7.5'
 							opacity='0.8'
 							rx='1.25'
-							stroke-width='0.5'
+							strokeWidth='0.5'
 							width='20.5'
 							x='165.25'
 							y='93.25'
@@ -384,7 +384,7 @@ const FeatureSection = () => {
 							height='9.5'
 							opacity='0.4'
 							rx='1.25'
-							stroke-width='0.5'
+							strokeWidth='0.5'
 							width='30.5'
 							x='234.25'
 							y='139.25'
@@ -394,7 +394,7 @@ const FeatureSection = () => {
 							height='9.5'
 							opacity='0.4'
 							rx='1.25'
-							stroke-width='0.5'
+							strokeWidth='0.5'
 							width='30.5'
 							x='200.25'
 							y='139.25'
@@ -404,7 +404,7 @@ const FeatureSection = () => {
 							height='9.5'
 							opacity='0.4'
 							rx='1.25'
-							stroke-width='0.5'
+							strokeWidth='0.5'
 							width='30.5'
 							x='8.25'
 							y='139.25'
@@ -420,14 +420,14 @@ const FeatureSection = () => {
 							>
 								<stop
 									className='text-[#E4E4E7] dark:text-[#4C4C50]'
-									stop-color='currentColor'
-									stop-opacity='0.61'
+									stopColor='currentColor'
+									stopOpacity='0.61'
 								></stop>
 								<stop
 									className='text-white dark:text-[#27272A]'
 									offset='1'
-									stop-color='currentColor'
-									stop-opacity='0'
+									stopColor='currentColor'
+									stopOpacity='0'
 								></stop>
 							</linearGradient>
 						</defs>
@@ -480,7 +480,7 @@ const FeatureSection = () => {
 						<path
 							className='fill-neutral-50 dark:fill-neutral-800'
 							d='M8 36C8 31.5817 11.5817 28 16 28H88C92.4183 28 96 31.5817 96 36V138C96 142.418 92.4183 146 88 146H16C11.5817 146 8 142.418 8 138V36Z'
-							fill-opacity='0.8'
+							fillOpacity='0.8'
 						></path>
 						<rect
 							fill='#71717A'
@@ -517,12 +517,12 @@ const FeatureSection = () => {
 						<path
 							className='fill-neutral-50 dark:fill-neutral-800'
 							d='M107 35C107 30.5817 110.582 27 115 27H187C191.418 27 195 30.5817 195 35V138C195 142.418 191.418 146 187 146H115C110.582 146 107 142.418 107 138V35Z'
-							fill-opacity='0.8'
+							fillOpacity='0.8'
 						></path>
 						<path
 							className='stroke-neutral-300 dark:stroke-[#3A3A40]'
 							d='M206.607 141.062C206.344 140.427 206.16 139.75 206.068 139.045L206.563 138.98C206.522 138.66 206.5 138.332 206.5 138V137.019H206V135.058H206.5V133.096H206V131.135H206.5V129.173H206V127.212H206.5V125.25H206V123.289H206.5V121.327H206V119.365H206.5V117.404H206V115.442H206.5V113.481H206V111.519H206.5V109.558H206V107.596H206.5V105.635H206V103.673H206.5V101.712H206V99.75H206.5V97.7885H206V95.8269H206.5V93.8654H206V91.9039H206.5V89.9423H206V87.9808H206.5V86.0192H206V84.0577H206.5V82.0962H206V80.1346H206.5V78.1731H206V76.2115H206.5V74.25H206V72.2885H206.5V70.3269H206V68.3654H206.5V66.4038H206V64.4423H206.5V62.4808H206V60.5192H206.5V58.5577H206V56.5962H206.5V54.6346H206V52.6731H206.5V50.7115H206V48.75H206.5V46.7885H206V44.8269H206.5V42.8654H206V40.9038H206.5V38.9423H206V36.9808H206.5V36C206.5 35.6675 206.522 35.3404 206.563 35.0198L206.068 34.9551C206.16 34.2496 206.344 33.573 206.607 32.9377L207.069 33.1292C207.322 32.5198 207.653 31.9506 208.049 31.4344L207.653 31.1297C208.079 30.5755 208.576 30.0787 209.13 29.6528L209.434 30.0493C209.951 29.6525 210.52 29.3216 211.129 29.0689L210.938 28.607C211.573 28.3436 212.25 28.1596 212.955 28.0676L213.02 28.5634C213.34 28.5216 213.668 28.5 214 28.5H215V28H217V28.5H219V28H221V28.5H223V28H225V28.5H227V28H229V28.5H231V28H233V28.5H235V28H237V28.5H239V28H241V28.5H243V28H245V28.5H247V28H249V28.5H251V28H253V28.5H255V28H257V28.5H259V28H261V28.5H263V28H265V28.5H267V28H269V28.5H271V28H273V28.5H275V28H277V28.5H279V28H281V28.5H283V28H285V28.5H286C286.332 28.5 286.66 28.5216 286.98 28.5634L287.045 28.0676C287.75 28.1596 288.427 28.3436 289.062 28.607L288.871 29.0689C289.48 29.3216 290.049 29.6525 290.566 30.0493L290.87 29.6528C291.424 30.0787 291.921 30.5755 292.347 31.1297L291.951 31.4344C292.347 31.9506 292.678 32.5198 292.931 33.1292L293.393 32.9377C293.656 33.573 293.84 34.2496 293.932 34.9551L293.437 35.0198C293.478 35.3404 293.5 35.6675 293.5 36V36.9807H294V38.9423H293.5V40.9038H294V42.8653H293.5V44.8269H294V46.7884H293.5V48.75H294V50.7115H293.5V52.673H294V54.6346H293.5V56.5961H294V58.5577H293.5V60.5192H294V62.4807H293.5V64.4423H294V66.4038H293.5V68.3654H294V70.3269H293.5V72.2884H294V74.25H293.5V76.2115H294V78.1731H293.5V80.1346H294V82.0961H293.5V84.0577H294V86.0192H293.5V87.9808H294V89.9423H293.5V91.9038H294V93.8654H293.5V95.8269H294V97.7885H293.5V99.75H294V101.712H293.5V103.673H294V105.635H293.5V107.596H294V109.558H293.5V111.519H294V113.481H293.5V115.442H294V117.404H293.5V119.365H294V121.327H293.5V123.288H294V125.25H293.5V127.212H294V129.173H293.5V131.135H294V133.096H293.5V135.058H294V137.019H293.5V138C293.5 138.332 293.478 138.66 293.437 138.98L293.932 139.045C293.84 139.75 293.656 140.427 293.393 141.062L292.931 140.871C292.678 141.48 292.347 142.049 291.951 142.566L292.347 142.87C291.921 143.424 291.424 143.921 290.87 144.347L290.566 143.951C290.049 144.347 289.48 144.678 288.871 144.931L289.062 145.393C288.427 145.656 287.75 145.84 287.045 145.932L286.98 145.437C286.66 145.478 286.332 145.5 286 145.5H285V146H283V145.5H281V146H279V145.5H277V146H275V145.5H273V146H271V145.5H269V146H267V145.5H265V146H263V145.5H261V146H259V145.5H257V146H255V145.5H253V146H251V145.5H249V146H247V145.5H245V146H243V145.5H241V146H239V145.5H237V146H235V145.5H233V146H231V145.5H229V146H227V145.5H225V146H223V145.5H221V146H219V145.5H217V146H215V145.5H214C213.668 145.5 213.34 145.478 213.02 145.437L212.955 145.932C212.25 145.84 211.573 145.656 210.938 145.393L211.129 144.931C210.52 144.678 209.951 144.347 209.434 143.951L209.13 144.347C208.576 143.921 208.079 143.424 207.653 142.87L208.049 142.566C207.653 142.049 207.322 141.48 207.069 140.871L206.607 141.062Z'
-							stroke-dasharray='2 2'
+							strokeDasharray='2 2'
 						></path>
 						<g filter='url(#filter0_d_1027_20429)'>
 							<path
@@ -543,7 +543,7 @@ const FeatureSection = () => {
 							x='101'
 							y='28'
 						></rect>
-						<g clip-path='url(#clip0_1027_20429)'>
+						<g clipPath='url(#clip0_1027_20429)'>
 							<mask
 								height='20'
 								id='mask0_1027_20429'
@@ -574,8 +574,8 @@ const FeatureSection = () => {
 								<path
 									d='M141.875 19.125C142.188 19 142.75 19.0625 142.938 19.4375C143.063 19.75 143.187 20.1875 143.187 20.125C143.187 19.875 143.188 19.375 143.25 19.125C143.313 18.9375 143.438 18.75 143.688 18.6875C143.875 18.625 144.062 18.625 144.25 18.625C144.437 18.6875 144.625 18.8125 144.75 18.9375C145 19.3125 145 20.125 145 20.0625C145.063 19.875 145.062 19.3125 145.187 19.0625C145.25 18.9375 145.5 18.8125 145.625 18.75C145.813 18.6875 146.062 18.6875 146.25 18.75C146.375 18.75 146.625 18.9375 146.687 19.0625C146.812 19.25 146.875 19.875 146.938 20.125C146.938 20.1875 147 19.875 147.125 19.6875C147.375 19.3125 148.25 19.1875 148.312 20.0625C148.312 20.5 148.312 20.4375 148.312 20.75C148.312 21.0625 148.312 21.25 148.312 21.5C148.312 21.75 148.25 22.3125 148.188 22.5625C148.125 22.75 147.937 23.1875 147.75 23.4375C147.75 23.4375 147.062 24.1875 147 24.5625C146.937 24.9375 146.938 24.9375 146.938 25.1875C146.938 25.4375 147 25.75 147 25.75C147 25.75 146.5 25.8125 146.25 25.75C146 25.6875 145.688 25.25 145.625 25.0625C145.5 24.875 145.312 24.875 145.187 25.0625C145.062 25.3125 144.75 25.75 144.562 25.75C144.125 25.8125 143.25 25.75 142.625 25.75C142.625 25.75 142.75 25.125 142.5 24.875C142.313 24.6875 142 24.375 141.813 24.1875L141.312 23.625C141.125 23.375 140.688 23.0625 140.563 22.375C140.438 21.8125 140.438 21.5 140.563 21.25C140.688 21 141 20.875 141.125 20.875C141.25 20.875 141.563 20.875 141.688 20.9375C141.813 21 141.875 21.0625 142 21.1875C142.125 21.375 142.188 21.5 142.125 21.25C142.063 21.0625 141.938 20.875 141.875 20.625C141.813 20.375 141.625 20.0625 141.625 19.6875C141.312 19.6875 141.375 19.3125 141.875 19.125Z'
 									stroke='black'
-									stroke-linejoin='round'
-									stroke-width='0.46875'
+									strokeLinejoin='round'
+									strokeWidth='0.46875'
 								></path>
 							</g>
 							<mask
@@ -592,8 +592,8 @@ const FeatureSection = () => {
 								<path
 									d='M146.25 23.9375V21.8125'
 									stroke='black'
-									stroke-linecap='round'
-									stroke-width='0.46875'
+									strokeLinecap='round'
+									strokeWidth='0.46875'
 								></path>
 							</g>
 							<mask
@@ -610,8 +610,8 @@ const FeatureSection = () => {
 								<path
 									d='M145 23.9375L144.938 21.8125'
 									stroke='black'
-									stroke-linecap='round'
-									stroke-width='0.46875'
+									strokeLinecap='round'
+									strokeWidth='0.46875'
 								></path>
 							</g>
 							<mask
@@ -628,14 +628,14 @@ const FeatureSection = () => {
 								<path
 									d='M143.75 21.8125V23.9375'
 									stroke='black'
-									stroke-linecap='round'
-									stroke-width='0.46875'
+									strokeLinecap='round'
+									strokeWidth='0.46875'
 								></path>
 							</g>
 						</g>
 						<defs>
 							<filter
-								color-interpolation-filters='sRGB'
+								colorInterpolationFilters='sRGB'
 								filterUnits='userSpaceOnUse'
 								height='133.5'
 								id='filter0_d_1027_20429'
@@ -643,10 +643,7 @@ const FeatureSection = () => {
 								x='127.5'
 								y='20'
 							>
-								<feFlood
-									flood-opacity='0'
-									result='BackgroundImageFix'
-								></feFlood>
+								<feFlood floodOpacity='0' result='BackgroundImageFix'></feFlood>
 								<feColorMatrix
 									in='SourceAlpha'
 									result='hardAlpha'
@@ -688,14 +685,14 @@ const FeatureSection = () => {
 							>
 								<stop
 									className='text-[#E4E4E7] dark:text-[#4C4C509C]'
-									stop-color='currentColor'
-									stop-opacity='0.61'
+									stopColor='currentColor'
+									stopOpacity='0.61'
 								></stop>
 								<stop
 									className='text-white dark:text-[#27272A]'
 									offset='1'
-									stop-color='currentColor'
-									stop-opacity='0'
+									stopColor='currentColor'
+									stopOpacity='0'
 								></stop>
 							</linearGradient>
 							<linearGradient
@@ -708,13 +705,13 @@ const FeatureSection = () => {
 							>
 								<stop
 									className='text-[#BDBDC2] dark:text-[#71717A]'
-									stop-color='currentColor'
-									stop-opacity='0.34'
+									stopColor='currentColor'
+									stopOpacity='0.34'
 								></stop>
 								<stop
 									className='text-[#ECECEE] dark:text-[#232325]'
 									offset='1'
-									stop-color='currentColor'
+									stopColor='currentColor'
 								></stop>
 							</linearGradient>
 							<clipPath id='clip0_1027_20429'>
@@ -738,11 +735,11 @@ const FeatureSection = () => {
 						width='100%'
 						xmlns='http://www.w3.org/2000/svg'
 					>
-						<g clip-path='url(#clip0_1027_20473)'>
+						<g clipPath='url(#clip0_1027_20473)'>
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='186.322'
@@ -753,7 +750,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='186.322'
 									x='89.9628'
 									y='134.255'
@@ -762,7 +759,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -773,7 +770,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='3.48626'
 									y='134.255'
@@ -797,8 +794,8 @@ const FeatureSection = () => {
 								height='32.3217'
 								rx='4.66141'
 								stroke='url(#paint1_angular_1027_20473)'
-								stroke-opacity='0.25'
-								stroke-width='0.84753'
+								strokeOpacity='0.25'
+								strokeWidth='0.84753'
 								width='37.0602'
 								x='46.1308'
 								y='134.255'
@@ -819,8 +816,8 @@ const FeatureSection = () => {
 								height='32.3217'
 								rx='4.66141'
 								stroke='url(#paint3_angular_1027_20473)'
-								stroke-opacity='0.25'
-								stroke-width='0.84753'
+								strokeOpacity='0.25'
+								strokeWidth='0.84753'
 								width='37.0602'
 								x='91.1464'
 								y='53.7011'
@@ -832,7 +829,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -843,7 +840,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='24.8085'
 									y='93.9775'
@@ -858,7 +855,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -869,7 +866,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='1.11712'
 									y='53.7011'
@@ -884,7 +881,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -895,7 +892,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='23.623'
 									y='13.4238'
@@ -910,7 +907,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -921,7 +918,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='69.8222'
 									y='93.9775'
@@ -936,7 +933,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -947,7 +944,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='46.1308'
 									y='53.7011'
@@ -962,7 +959,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -973,7 +970,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='68.6386'
 									y='13.4238'
@@ -988,7 +985,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -999,7 +996,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='114.838'
 									y='93.9775'
@@ -1014,7 +1011,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -1025,7 +1022,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='113.654'
 									y='13.4238'
@@ -1040,7 +1037,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -1051,7 +1048,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='159.855'
 									y='93.9775'
@@ -1066,7 +1063,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -1077,7 +1074,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='136.162'
 									y='53.7011'
@@ -1092,7 +1089,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -1103,7 +1100,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='158.668'
 									y='13.4238'
@@ -1118,7 +1115,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -1129,7 +1126,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='204.869'
 									y='93.9775'
@@ -1144,7 +1141,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -1155,7 +1152,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='181.178'
 									y='53.7011'
@@ -1170,7 +1167,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -1181,7 +1178,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='203.687'
 									y='13.4238'
@@ -1196,7 +1193,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -1207,7 +1204,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='249.885'
 									y='93.9775'
@@ -1222,7 +1219,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -1233,7 +1230,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='226.191'
 									y='53.7011'
@@ -1248,7 +1245,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									className='fill-neutral-200 dark:fill-neutral-800'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -1259,7 +1256,7 @@ const FeatureSection = () => {
 									className='stroke-neutral-300 dark:stroke-neutral-700'
 									height='32.3217'
 									rx='4.66141'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='248.701'
 									y='13.4238'
@@ -1274,7 +1271,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									fill='url(#paint4_linear_1027_20473)'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -1285,7 +1282,7 @@ const FeatureSection = () => {
 									height='32.3217'
 									rx='4.66141'
 									stroke='url(#paint5_linear_1027_20473)'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='-21.3926'
 									y='13.4238'
@@ -1294,7 +1291,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									fill='url(#paint6_linear_1027_20473)'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									width='37.0602'
@@ -1305,7 +1302,7 @@ const FeatureSection = () => {
 									height='32.3217'
 									rx='4.66141'
 									stroke='url(#paint7_linear_1027_20473)'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									width='37.0602'
 									x='-21.5762'
 									y='94.4238'
@@ -1314,7 +1311,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									fill='url(#paint8_linear_1027_20473)'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									transform='matrix(-1 0 0 1 330.061 94)'
@@ -1326,7 +1323,7 @@ const FeatureSection = () => {
 									height='32.3217'
 									rx='4.66141'
 									stroke='url(#paint9_linear_1027_20473)'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									transform='matrix(-1 0 0 1 330.061 94)'
 									width='37.0602'
 									x='-0.423765'
@@ -1336,7 +1333,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									fill='url(#paint10_linear_1027_20473)'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									transform='matrix(-1 0 0 1 308.059 53)'
@@ -1348,7 +1345,7 @@ const FeatureSection = () => {
 									height='32.3217'
 									rx='4.66141'
 									stroke='url(#paint11_linear_1027_20473)'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									transform='matrix(-1 0 0 1 308.059 53)'
 									width='37.0602'
 									x='-0.423765'
@@ -1365,7 +1362,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									fill='url(#paint12_linear_1027_20473)'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									transform='matrix(-1 0 0 1 319.059 134)'
@@ -1377,7 +1374,7 @@ const FeatureSection = () => {
 									height='32.3217'
 									rx='4.66141'
 									stroke='url(#paint13_linear_1027_20473)'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									transform='matrix(-1 0 0 1 319.059 134)'
 									width='37.0602'
 									x='-0.423765'
@@ -1394,7 +1391,7 @@ const FeatureSection = () => {
 							<g opacity='0.6'>
 								<rect
 									fill='url(#paint14_linear_1027_20473)'
-									fill-opacity='0.4'
+									fillOpacity='0.4'
 									height='32.3217'
 									rx='4.66141'
 									transform='matrix(-1 0 0 1 329.059 13)'
@@ -1406,7 +1403,7 @@ const FeatureSection = () => {
 									height='32.3217'
 									rx='4.66141'
 									stroke='url(#paint15_linear_1027_20473)'
-									stroke-width='0.84753'
+									strokeWidth='0.84753'
 									transform='matrix(-1 0 0 1 329.059 13)'
 									width='37.0602'
 									x='-0.423765'
@@ -1425,14 +1422,14 @@ const FeatureSection = () => {
 							>
 								<stop
 									className='text-neutral-300 dark:text-[#4C4C50]'
-									stop-color='currentColor'
-									stop-opacity='0.61'
+									stopColor='currentColor'
+									stopOpacity='0.61'
 								></stop>
 								<stop
 									className='text-neutral-50 dark:text-neutral-800'
 									offset='1'
-									stop-color='currentColor'
-									stop-opacity='0'
+									stopColor='currentColor'
+									stopOpacity='0'
 								></stop>
 							</linearGradient>
 							<radialGradient
@@ -1443,9 +1440,9 @@ const FeatureSection = () => {
 								id='paint1_angular_1027_20473'
 								r='1'
 							>
-								<stop offset='0.471864' stop-color='#3F3F46'></stop>
-								<stop offset='0.65625' stop-color='#D8D8E1'></stop>
-								<stop offset='1' stop-color='#3F3F46'></stop>
+								<stop offset='0.471864' stopColor='#3F3F46'></stop>
+								<stop offset='0.65625' stopColor='#D8D8E1'></stop>
+								<stop offset='1' stopColor='#3F3F46'></stop>
 							</radialGradient>
 							<linearGradient
 								gradientUnits='userSpaceOnUse'
@@ -1457,14 +1454,14 @@ const FeatureSection = () => {
 							>
 								<stop
 									className='text-neutral-300 dark:text-[#4C4C50]'
-									stop-color='currentColor'
-									stop-opacity='0.61'
+									stopColor='currentColor'
+									stopOpacity='0.61'
 								></stop>
 								<stop
 									className='text-neutral-50 dark:text-neutral-800'
 									offset='1'
-									stop-color='currentColor'
-									stop-opacity='0'
+									stopColor='currentColor'
+									stopOpacity='0'
 								></stop>
 							</linearGradient>
 							<radialGradient
@@ -1478,17 +1475,17 @@ const FeatureSection = () => {
 								<stop
 									className='text-neutral-300 dark:text-neutral-700'
 									offset='0.471864'
-									stop-color='currentColor'
+									stopColor='currentColor'
 								></stop>
 								<stop
 									className='text-neutral-300 dark:text-[#D8D8E1]'
 									offset='0.65625'
-									stop-color='currentColor'
+									stopColor='currentColor'
 								></stop>
 								<stop
 									className='text-neutral-300 dark:text-neutral-700'
 									offset='1'
-									stop-color='currentColor'
+									stopColor='currentColor'
 								></stop>
 							</radialGradient>
 							<linearGradient
@@ -1501,13 +1498,13 @@ const FeatureSection = () => {
 							>
 								<stop
 									className='text-neutral-50 dark:text-neutral-800'
-									stop-color='currentColor'
+									stopColor='currentColor'
 								></stop>
 								<stop
 									className='text-neutral-50 dark:text-neutral-800'
 									offset='1'
-									stop-color='currentColor'
-									stop-opacity='0'
+									stopColor='currentColor'
+									stopOpacity='0'
 								></stop>
 							</linearGradient>
 							<linearGradient
@@ -1520,13 +1517,13 @@ const FeatureSection = () => {
 							>
 								<stop
 									className='text-neutral-300 dark:text-neutral-700'
-									stop-color='currentColor'
+									stopColor='currentColor'
 								></stop>
 								<stop
 									className='text-neutral-300 dark:text-neutral-700'
 									offset='1'
-									stop-color='currentColor'
-									stop-opacity='0'
+									stopColor='currentColor'
+									stopOpacity='0'
 								></stop>
 							</linearGradient>
 							<linearGradient
@@ -1539,13 +1536,13 @@ const FeatureSection = () => {
 							>
 								<stop
 									className='text-neutral-50 dark:text-neutral-800'
-									stop-color='currentColor'
+									stopColor='currentColor'
 								></stop>
 								<stop
 									className='text-neutral-50 dark:text-neutral-800'
 									offset='1'
-									stop-color='currentColor'
-									stop-opacity='0'
+									stopColor='currentColor'
+									stopOpacity='0'
 								></stop>
 							</linearGradient>
 							<linearGradient
@@ -1558,13 +1555,13 @@ const FeatureSection = () => {
 							>
 								<stop
 									className='text-neutral-300 dark:text-neutral-700'
-									stop-color='currentColor'
+									stopColor='currentColor'
 								></stop>
 								<stop
 									className='text-neutral-300 dark:text-neutral-700'
 									offset='1'
-									stop-color='currentColor'
-									stop-opacity='0'
+									stopColor='currentColor'
+									stopOpacity='0'
 								></stop>
 							</linearGradient>
 							<linearGradient
@@ -1577,13 +1574,13 @@ const FeatureSection = () => {
 							>
 								<stop
 									className='text-neutral-50 dark:text-neutral-800'
-									stop-color='currentColor'
+									stopColor='currentColor'
 								></stop>
 								<stop
 									className='text-neutral-50 dark:text-neutral-800'
 									offset='1'
-									stop-color='currentColor'
-									stop-opacity='0'
+									stopColor='currentColor'
+									stopOpacity='0'
 								></stop>
 							</linearGradient>
 							<linearGradient
@@ -1596,13 +1593,13 @@ const FeatureSection = () => {
 							>
 								<stop
 									className='text-neutral-300 dark:text-neutral-700'
-									stop-color='currentColor'
+									stopColor='currentColor'
 								></stop>
 								<stop
 									className='text-neutral-300 dark:text-neutral-700'
 									offset='1'
-									stop-color='currentColor'
-									stop-opacity='0'
+									stopColor='currentColor'
+									stopOpacity='0'
 								></stop>
 							</linearGradient>
 							<linearGradient
@@ -1615,13 +1612,13 @@ const FeatureSection = () => {
 							>
 								<stop
 									className='text-neutral-50 dark:text-neutral-800'
-									stop-color='currentColor'
+									stopColor='currentColor'
 								></stop>
 								<stop
 									className='text-neutral-50 dark:text-neutral-800'
 									offset='1'
-									stop-color='currentColor'
-									stop-opacity='0'
+									stopColor='currentColor'
+									stopOpacity='0'
 								></stop>
 							</linearGradient>
 							<linearGradient
@@ -1634,13 +1631,13 @@ const FeatureSection = () => {
 							>
 								<stop
 									className='text-neutral-300 dark:text-neutral-700'
-									stop-color='currentColor'
+									stopColor='currentColor'
 								></stop>
 								<stop
 									className='text-neutral-300 dark:text-neutral-700'
 									offset='1'
-									stop-color='currentColor'
-									stop-opacity='0'
+									stopColor='currentColor'
+									stopOpacity='0'
 								></stop>
 							</linearGradient>
 							<linearGradient
@@ -1653,13 +1650,13 @@ const FeatureSection = () => {
 							>
 								<stop
 									className='text-neutral-50 dark:text-neutral-800'
-									stop-color='currentColor'
+									stopColor='currentColor'
 								></stop>
 								<stop
 									className='text-neutral-50 dark:text-neutral-800'
 									offset='1'
-									stop-color='currentColor'
-									stop-opacity='0'
+									stopColor='currentColor'
+									stopOpacity='0'
 								></stop>
 							</linearGradient>
 							<linearGradient
@@ -1672,13 +1669,13 @@ const FeatureSection = () => {
 							>
 								<stop
 									className='text-neutral-300 dark:text-neutral-700'
-									stop-color='currentColor'
+									stopColor='currentColor'
 								></stop>
 								<stop
 									className='text-neutral-300 dark:text-neutral-700'
 									offset='1'
-									stop-color='currentColor'
-									stop-opacity='0'
+									stopColor='currentColor'
+									stopOpacity='0'
 								></stop>
 							</linearGradient>
 							<linearGradient
@@ -1691,13 +1688,13 @@ const FeatureSection = () => {
 							>
 								<stop
 									className='text-neutral-50 dark:text-neutral-800'
-									stop-color='currentColor'
+									stopColor='currentColor'
 								></stop>
 								<stop
 									className='text-neutral-50 dark:text-neutral-800'
 									offset='1'
-									stop-color='currentColor'
-									stop-opacity='0'
+									stopColor='currentColor'
+									stopOpacity='0'
 								></stop>
 							</linearGradient>
 							<linearGradient
@@ -1710,13 +1707,13 @@ const FeatureSection = () => {
 							>
 								<stop
 									className='text-neutral-300 dark:text-neutral-700'
-									stop-color='currentColor'
+									stopColor='currentColor'
 								></stop>
 								<stop
 									className='text-neutral-300 dark:text-neutral-700'
 									offset='1'
-									stop-color='currentColor'
-									stop-opacity='0'
+									stopColor='currentColor'
+									stopOpacity='0'
 								></stop>
 							</linearGradient>
 							<clipPath id='clip0_1027_20473'>

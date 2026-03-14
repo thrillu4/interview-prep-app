@@ -76,9 +76,14 @@ const PromoSection = () => {
 					</div>
 				</div>
 				<div className='space-x-2'>
-					<Button className='bg-main inline-flex cursor-pointer hover:bg-main/60 dark:hover:bg-main/90 items-center text-black   gap-2 rounded-full py-6  text-xl font-medium'>
-						Get started now
-						<ArrowRight className='size-5' />
+					<Button className='bg-main  cursor-pointer hover:bg-main/60 dark:hover:bg-main/90  text-black rounded-full py-6  text-xl font-medium'>
+						<Link
+							href={ROUTES.GET_STARTED}
+							className='inline-flex items-center gap-2'
+						>
+							Get started now
+							<ArrowRight className='size-5' />
+						</Link>
 					</Button>
 					<Button
 						variant={'ghost'}
