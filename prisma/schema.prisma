@@ -8,15 +8,17 @@ datasource db {
 }
 
 model User {
-  id            String    @id
-  name          String
-  email         String
-  emailVerified Boolean   @default(false)
-  image         String?
-  createdAt     DateTime  @default(now())
-  updatedAt     DateTime  @updatedAt
-  sessions      Session[]
-  accounts      Account[]
+  id             String          @id
+  name           String
+  email          String
+  emailVerified  Boolean         @default(false)
+  image          String?
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+  sessions       Session[]
+  accounts       Account[]
+  submissions    Submission[]
+  solvedProblems SolvedProblem[]
 
   @@unique([email])
   @@map("user")
@@ -68,4 +70,93 @@ model Verification {
 
   @@index([identifier])
   @@map("verification")
+}
+
+// Coding Problems Schemas
+enum Difficulty {
+  EASY
+  MEDIUM
+  HARD
+}
+
+enum SubmissionStatus {
+  PASSED
+  FAILED
+  ERROR
+}
+
+model Problem {
+  id           String     @id @default(cuid())
+  slug         String     @unique
+  title        String
+  description  String
+  difficulty   Difficulty
+  starterCode  String
+  functionName String
+  createdAt    DateTime   @default(now())
+
+  tests       TestCase[]
+  submissions Submission[]
+  solvedBy    SolvedProblem[]
+  tags        ProblemTag[]
+
+  @@map("problem")
+}
+
+model TestCase {
+  id     String  @id @default(cuid())
+  input  Json
+  output Json
+  hidden Boolean @default(false)
+
+  problemId String
+  problem   Problem @relation(fields: [problemId], references: [id], onDelete: Cascade)
+
+  @@map("test_case")
+}
+
+model Submission {
+  id        String           @id @default(cuid())
+  code      String
+  status    SubmissionStatus
+  createdAt DateTime         @default(now())
+
+  userId    String
+  problemId String
+
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  problem Problem @relation(fields: [problemId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([problemId])
+}
+
+model SolvedProblem {
+  id String @id @default(cuid())
+
+  userId    String
+  problemId String
+  solvedAt  DateTime @default(now())
+
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  problem Problem @relation(fields: [problemId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, problemId])
+}
+
+model Tag {
+  id   String @id @default(cuid())
+  name String @unique
+
+  problems ProblemTag[]
+}
+
+model ProblemTag {
+  problemId String
+  tagId     String
+
+  problem Problem @relation(fields: [problemId], references: [id])
+  tag     Tag     @relation(fields: [tagId], references: [id])
+
+  @@id([problemId, tagId])
 }

@@ -12,3 +12,15 @@ export interface NavTab {
 	icon?: string
 	sections?: NavSection[]
 }
+
+export enum Difficulty {
+	EASY = 'EASY',
+	MEDIUM = 'MEDIUM',
+	HARD = 'HARD',
+}
+
+export enum SubmissionStatus {
+	PASSED = 'PASSED',
+	FAILED = 'FAILED',
+	ERROR = 'ERROR',
+}
