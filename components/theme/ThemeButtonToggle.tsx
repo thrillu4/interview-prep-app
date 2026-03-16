@@ -20,7 +20,7 @@ export function ModeToggle() {
 	const { setTheme } = useTheme()
 
 	return (
-		<DropdownMenu>
+		<DropdownMenu modal={false}>
 			<HoverCard>
 				<HoverCardTrigger>
 					<DropdownMenuTrigger asChild>
